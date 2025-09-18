@@ -15,9 +15,3 @@ export function divide(a, b) {
     return a / b;
 }
 
-module.exports = {
-    soma,
-    subtrai,
-    multiplica,
-    divide
-};
