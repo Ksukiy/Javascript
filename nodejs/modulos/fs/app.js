@@ -1,6 +1,6 @@
-const fs = require ('fs');
+import fs from 'fs';
 
-fs.readFile('texto.txt', 'utf8', (conteudo_do_arquivo, erro) => {
+fs.readFile('example.txt', 'utf8', (erro, conteudo_do_arquivo) => {
     if (erro) {
         console.error('Erro ao ler o arquivo:', erro);
         return;

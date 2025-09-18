@@ -1,6 +1,6 @@
-const http = require('http');
+import http from 'http';
 
-http.get('http://jsongplaceholder.typicode.com/todos/1'), (res) => {
+http.get('http://jsongplaceholder.typicode.com/todos/1', (res) => {
     let data = '';
 
     //Um pedaço de dado foi recebido.
